@@ -108,7 +108,7 @@ jobs:
           echo "DT_SDIST=$(ls dist/*.tar.gz)" >> $GITHUB_ENV
       
       - name: Save sdist artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: sdist
           path: ${{ env.DT_SDIST }}
@@ -153,7 +153,7 @@ jobs:
           cat src/datatable/_build_info.py
 
       - name: Save wheel artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: wheel-ubuntu-3.8
           path: ${{ env.DT_WHEEL }}
@@ -204,7 +204,7 @@ jobs:
           cat src/datatable/_build_info.py
 
       - name: Save wheel artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: wheel-ubuntu-3.9
           path: ${{ env.DT_WHEEL }}
@@ -255,7 +255,7 @@ jobs:
           cat src/datatable/_build_info.py
 
       - name: Save wheel artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: wheel-ubuntu-3.10
           path: ${{ env.DT_WHEEL }}
@@ -306,7 +306,7 @@ jobs:
           cat src/datatable/_build_info.py
 
       - name: Save wheel artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: wheel-ubuntu-3.11
           path: ${{ env.DT_WHEEL }}
@@ -359,7 +359,7 @@ jobs:
           cat src/datatable/_build_info.py
 
       - name: Save wheel artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: wheel-ubuntu-3.12
           path: ${{ env.DT_WHEEL }}
@@ -412,7 +412,7 @@ jobs:
           cat src/datatable/_build_info.py
 
       - name: Save wheel artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: wheel-ubuntu-3.13
           path: ${{ env.DT_WHEEL }}
@@ -466,7 +466,7 @@ jobs:
           cat src/datatable/_build_info.py
 
       - name: Save wheel artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: wheel-macos-3.8
           path: ${{ env.DT_WHEEL }}
@@ -516,7 +516,7 @@ jobs:
           cat src/datatable/_build_info.py
 
       - name: Save wheel artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: wheel-macos-3.9
           path: ${{ env.DT_WHEEL }}
@@ -566,7 +566,7 @@ jobs:
           cat src/datatable/_build_info.py
 
       - name: Save wheel artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: wheel-macos-3.10
           path: ${{ env.DT_WHEEL }}
@@ -615,7 +615,7 @@ jobs:
           cat src/datatable/_build_info.py
 
       - name: Save wheel artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: wheel-macos-3.11
           path: ${{ env.DT_WHEEL }}
@@ -665,7 +665,7 @@ jobs:
           cat src/datatable/_build_info.py
 
       - name: Save wheel artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: wheel-macos-3.12
           path: ${{ env.DT_WHEEL }}
@@ -715,7 +715,7 @@ jobs:
           cat src/datatable/_build_info.py
 
       - name: Save wheel artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: wheel-macos-3.13
           path: ${{ env.DT_WHEEL }}
@@ -768,7 +768,7 @@ jobs:
           cat src/datatable/_build_info.py
 
       - name: Save wheel artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: wheel-windows-3.8
           path: ${{ env.DT_WHEEL }}
@@ -818,7 +818,7 @@ jobs:
           cat src/datatable/_build_info.py
 
       - name: Save wheel artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: wheel-windows-3.9
           path: ${{ env.DT_WHEEL }}
@@ -868,7 +868,7 @@ jobs:
           cat src/datatable/_build_info.py
 
       - name: Save wheel artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: wheel-windows-3.10
           path: ${{ env.DT_WHEEL }}
@@ -918,7 +918,7 @@ jobs:
           cat src/datatable/_build_info.py
 
       - name: Save wheel artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: wheel-windows-3.11
           path: ${{ env.DT_WHEEL }}
@@ -968,7 +968,7 @@ jobs:
           cat src/datatable/_build_info.py
 
       - name: Save wheel artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: wheel-windows-3.12
           path: ${{ env.DT_WHEEL }}
@@ -1018,7 +1018,7 @@ jobs:
           cat src/datatable/_build_info.py
 
       - name: Save wheel artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: wheel-windows-3.13
           path: ${{ env.DT_WHEEL }}
